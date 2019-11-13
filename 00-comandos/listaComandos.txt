@@ -1,0 +1,43 @@
+--lista de comandos en Linux/Mac--
+
+1.-commmand + barra espaciadora --> aparece el bucador Spotlight
+2.-Control + click --> si hacemos esto en la barra de dock, nos aparecera una lista de opciones
+
+pwd --> nos muestra el directorio de trabajo en el que nos encontramso trabajando
+hostname --> nos muestra el nombre del equipo con el que estamos trabajando en la red
+mkdir --> con este comando creamos una carpeta
+cd --> con este comando podemos cambiar de directorio
+ls --> con este comando nos aparece un lista de lo que haya dentro de la carpeta
+rmdir --> nos permite borrar una carpeta/directorio
+pushd --> apila un directorio
+popd --> desapila un directorio
+cp --> Copia un fichero o directorio
+mv --> mueve un fichero o directorio
+less --> mostrar fichero por paginas
+cat --> mostrar contenido de un fichero
+xargs --> ejercutar con argumentos
+find --> buscar un archivo 
+grep --> encontrar cosas dentro de un archivo
+man --> leer un manual
+apropos --> muestra informacion sobre otros comandos
+env --> ejecuta comando en un entorno
+echo --> muestra algunos argumentos
+export --> exportar/asignar una nueva variable de entorno
+exit --> salir del terminal
+sudo --> ¡PELIGRO! nos proporciona superpoderes de administrador
+
+option + ñ + espacio = hace que aparezca este simbolo ~
+
+cd:
+    -si escribimos solo cd desde cualquier directorio, volveremos al lugar de origen(es decir a home--nuestro usuario del pc)
+    -Pero si tambien ponemos cd ~ tambien volvemos al lugar de origen
+
+mkdir:
+    -si ponemos mkdir "aqui el nombre de la carpeta" --> creamos una carpeta
+    -si ponemos mkdir "aqui el nombre de la carpeta"/"otro nombre de la carpeta" --> creamos una carpeta dentro de la primera carpeta que pusimos y asi susecivamente
+    -Pero si ponemos mkdir -p "nombre de una carpeta"/"otros nombre de carpeta"/"otro nombre de carpeta" --> podemos crear una carpeta dentro de otra y en una sola linea.
+
+
+
+
+
