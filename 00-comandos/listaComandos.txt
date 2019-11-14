@@ -3,7 +3,7 @@
 1.-commmand + barra espaciadora --> aparece el bucador Spotlight
 2.-Control + click --> si hacemos esto en la barra de dock, nos aparecera una lista de opciones
 
-pwd --> nos muestra el directorio de trabajo en el que nos encontramso trabajando
+pwd --> nos muestra el directorio de trabajo en el que nos encontramos trabajando
 hostname --> nos muestra el nombre del equipo con el que estamos trabajando en la red
 mkdir --> con este comando creamos una carpeta
 cd --> con este comando podemos cambiar de directorio
@@ -29,14 +29,22 @@ sudo --> ¡PELIGRO! nos proporciona superpoderes de administrador
 option + ñ + espacio = hace que aparezca este simbolo ~
 
 cd:
-    -si escribimos solo cd desde cualquier directorio, volveremos al lugar de origen(es decir a home--nuestro usuario del pc)
+    -si escribimos solo cd desde cualquier directorio, volveremos al lugar de origen(es decir a home --> nuestro usuario del pc)
     -Pero si tambien ponemos cd ~ tambien volvemos al lugar de origen
+    -si presionamos cd + espacio + .. --> retrocedemos un directorio hacia atras
+    -pero si ponemos cd + espacio .. + / + .. --> podemos retroceder mas espacios a la vez y podemos poner mas /.. las veces que queramos retroceder 
 
 mkdir:
     -si ponemos mkdir "aqui el nombre de la carpeta" --> creamos una carpeta
     -si ponemos mkdir "aqui el nombre de la carpeta"/"otro nombre de la carpeta" --> creamos una carpeta dentro de la primera carpeta que pusimos y asi susecivamente
     -Pero si ponemos mkdir -p "nombre de una carpeta"/"otros nombre de carpeta"/"otro nombre de carpeta" --> podemos crear una carpeta dentro de otra y en una sola linea.
+    - ls - lr --> probar en unix
 
+rmdir:
+    -para poder borrar una carpeta con rmdir "nombre de la carpeta" --> tenemos que estar un directorio por encima del 
+    directorio o carpeta que querramos borrar en ese momento
+    -si intenamos usar rmdir con una carpeta vacia y esta no se borra es porque se crea un archivo .DS_Store.
+    en este caso, escriba rm - rf <dir> en su lugar (reemplace <dir> con el nombre del directorio)
 
 
 
